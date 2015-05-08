@@ -21,7 +21,7 @@ powerConsumptionData$dateTime<-strptime(powerConsumptionData$dateTime, format="%
 print(anyNA(powerConsumptionData))
 
 #Make plot1
-hist(powerConsumptionData$Global_active_power, col="red", main="Global Active Power", xlab="Global Active Power (kilowatts")
+hist(powerConsumptionData$Global_active_power, col="red", main="Global Active Power", xlab="Global Active Power (kilowatts)")
 
 dev.copy(png, file="plot1.png", height=480, width=480, units="px")
 dev.off()

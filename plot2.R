@@ -21,7 +21,7 @@ powerConsumptionData$dateTime<-strptime(powerConsumptionData$dateTime, format="%
 print(anyNA(powerConsumptionData))
 
 
-#Make plot2. "Чт" for thuesday, "Пт" for friday, "Сб" for saturday
+#Make plot2. "Чт" for thursday, "Пт" for friday, "Сб" for saturday
 plot(powerConsumptionData$dateTime, powerConsumptionData$Global_active_power, ylab="Global Active Power (kilowatts)", type="l", xlab="")
 
 dev.copy(png, file="plot2.png", height=480, width=480, units="px")

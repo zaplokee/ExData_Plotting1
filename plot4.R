@@ -22,7 +22,7 @@ print(anyNA(powerConsumptionData))
 
 
 
-#Make plot3
+#Make plot4
 png("plot4.png", height=480, width=480, units="px")
 
 par(mfrow=c(2,2), mar=c(4,4,2,2))

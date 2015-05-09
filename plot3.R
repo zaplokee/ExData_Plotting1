@@ -22,7 +22,7 @@ print(anyNA(powerConsumptionData))
 
 
 
-#Make plot3. "Чт" for thursday, "Пт" for friday, "Сб" for saturday
+#Make plot3
 png("plot3.png", height=480, width=480, units="px")
 
 par(mar=c(4,4,2,2))
